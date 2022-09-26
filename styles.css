@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.brick{
+    background-color:blue;
+
+    color: white;
+
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+}
+
+.brick h1,h2{
+    margin-left: 15px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.blocks{
+    border-style: solid;
+    
+    width: 95%;
+;   margin: 10px ;
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.blocks h3{
+    margin:10px;
+
+}
+
+@media only screen and (min-width: 391px){
+    .blocks{
+        width: 44%;
+        height: 350px;
+    }
+}
